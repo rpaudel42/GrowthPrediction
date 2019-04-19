@@ -20,7 +20,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 class Segmentation():
     def __init__(self):
-        self.raw_data = pd.read_csv('case_final (1).csv')
+        self.raw_data = pd.read_csv('customer.csv')
         self.transaction = self.raw_data
 
     def check_data(self):

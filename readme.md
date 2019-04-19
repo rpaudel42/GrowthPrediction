@@ -12,10 +12,6 @@
 	- imbalanced-learn
 
 
-**Usage**
-======
-
-$ make
 
 if Make is not installed
 ------------------------
@@ -25,11 +21,8 @@ $ python3 main.py
 **Notes**
 =====
 
-1. Make sure the directory growth_prediction have subfolder "figures"
-2. Make sure you "case_final (1).csv" file is in the root directory
+1. Make sure the directory GrowthPrediction have subfolder "figures"
+2. Make sure you "customer.csv" file is in the root directory
 3. To run the program, run following commands:
-    -make clean
-    -make
-    -make install
-4. The predicted high growth list is "high_growth_merchang.csv" attached here
-5. "documentation" directory have IPython notebook and a saved html file.
+    python3 main.py
+4. "documentation" directory have IPython notebook
